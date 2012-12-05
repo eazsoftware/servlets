@@ -19,7 +19,16 @@
         <servlet-name>SimpleServletShowProperties</servlet-name>
         <url-pattern>/SimpleServletShowProperties</url-pattern>
     </servlet-mapping>    
-    
+
+    <!-- CookieServlet -->    
+    <servlet>
+        <servlet-name>CookieServlet</servlet-name>
+        <servlet-class>com.eaz.servlets.cookie.CookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieServlet</servlet-name>
+        <url-pattern>/CookieServlet</url-pattern>
+    </servlet-mapping>    
     
     <session-config>
         <session-timeout>
