@@ -9,7 +9,6 @@
         <servlet-name>SimpleServlet</servlet-name>
         <url-pattern>/SimpleServlet</url-pattern>
     </servlet-mapping>
-    
     <!-- SimpleServletShowProperties -->
     <servlet>
         <servlet-name>SimpleServletShowProperties</servlet-name>
@@ -18,9 +17,8 @@
     <servlet-mapping>
         <servlet-name>SimpleServletShowProperties</servlet-name>
         <url-pattern>/SimpleServletShowProperties</url-pattern>
-    </servlet-mapping>    
-
-    <!-- CookieServlet -->    
+    </servlet-mapping>
+    <!-- CookieServlet -->
     <servlet>
         <servlet-name>CookieServlet</servlet-name>
         <servlet-class>com.eaz.servlets.cookie.CookieServlet</servlet-class>
@@ -28,8 +26,16 @@
     <servlet-mapping>
         <servlet-name>CookieServlet</servlet-name>
         <url-pattern>/CookieServlet</url-pattern>
-    </servlet-mapping>    
-    
+    </servlet-mapping>
+    <!-- SessionServlet -->
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>com.eaz.servlets.session.SessionServlet</servlet-class>
+    </servlet>    
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/SessionServlet</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
