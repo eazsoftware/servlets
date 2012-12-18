@@ -36,6 +36,15 @@
         <servlet-name>SessionServlet</servlet-name>
         <url-pattern>/SessionServlet</url-pattern>
     </servlet-mapping>
+    <!-- SessionServlet -->
+    <servlet>
+        <servlet-name>StockMarketServlet</servlet-name>
+        <servlet-class>com.eaz.servlets.session.stockmarket.StockMarketServlet</servlet-class>
+    </servlet>    
+    <servlet-mapping>
+        <servlet-name>StockMarketServlet</servlet-name>
+        <url-pattern>/StockMarketServlet</url-pattern>
+    </servlet-mapping>    
     <session-config>
         <session-timeout>
             30

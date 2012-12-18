@@ -14,5 +14,6 @@
         <p><b>Simple Servlet show properties (POST method)</b> <a href="view/simpleServletPOSTShowProperties.jsp">Simple Servlet show properties using POST method</a></p>        
         <p><b>Cookie</b> <a href="view/cookie/cookieCreate.jsp">Manipulating cookies</a></p>
         <p><b>Sessions</b> <a href="view/session/sessionServlet.jsp">Sessions</a></p>
+        <p><b>Stock Market</b> <a href="view/stockmarket/stockmarket.jsp">Stock Market</a></p>
     </body>
 </html>
